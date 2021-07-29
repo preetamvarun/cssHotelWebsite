@@ -7,18 +7,19 @@
 .mainNavigator ul li{
     display: inline-block;
     color: white;
-    margin : 0px 10px;
     font-size : 16px;
 }
 
 .mainNavigator ul{
     float: right;
+    margin-right: 50px;
 }
 
 .mainNavigator a{
     text-decoration : none;
     color : white;
     font-size: 16px;
+    margin-left : 40px;
 }
 
 .mainNavigator{
@@ -32,4 +33,39 @@
 }
 
 
-/* on hover color : #EC9B51 */
+.textContainer{
+    text-align: center;
+    padding-top: 170px;
+}
+
+.textContainer h1,p{
+    padding-bottom : 20px;
+    color : white;
+    line-height: 1.2em;
+}
+
+.textContainer h1{
+    font-size : 50px;
+}
+
+.textContainer p{
+    font-size : 18px;
+    margin-bottom : 20px;
+}
+
+
+.imageContainer{
+    background-image: url(./images/showcase.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.textContainer a{
+    padding : 20px;
+    text-decoration: none; 
+    color : white; 
+    line-height: 1.2em;
+    background-color : #333333;
+}
+
