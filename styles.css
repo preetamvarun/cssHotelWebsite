@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding : 0px;
+    box-sizing : border-box;
+}
+
+.mainNavigator ul li{
+    display: inline-block;
+    color: white;
+    margin : 0px 10px;
+    font-size : 16px;
+}
+
+.mainNavigator ul{
+    float: right;
+}
+
+.mainNavigator a{
+    text-decoration : none;
+    color : white;
+    font-size: 16px;
+}
+
+.mainNavigator{
+    background-color : #333333;
+    padding : 20px;
+}
+
+.mainNavigator ul li a:hover{
+    background-color: #EC9B51;
+    padding : 20px;
+}
+
+
+/* on hover color : #EC9B51 */
