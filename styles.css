@@ -168,6 +168,11 @@
     padding : 10px;
 }
 
+.ContactForm form input:focus,textarea:focus{
+    border: none;
+    outline : 1px solid #EC9B51;
+}
+
 form a{
     text-decoration: none;
     padding : 10px;
