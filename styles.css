@@ -4,6 +4,10 @@
     box-sizing : border-box;
 }
 
+.clr{
+    clear: both;
+}
+
 .mainNavigator ul li{
     display: inline-block;
     color: white;
@@ -18,7 +22,6 @@
 .mainNavigator a{
     text-decoration : none;
     color : white;
-    font-size: 16px;
     margin-left : 40px;
 }
 
@@ -51,12 +54,14 @@
 .textContainer p{
     font-size : 18px;
     margin-bottom : 20px;
+    font-size: 20px;
 }
 
 
 .imageContainer{
     background-image: url(./images/showcase.jpg);
     height: 600px;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -68,4 +73,72 @@
     line-height: 1.2em;
     background-color : #333333;
 }
+
+.textContainer a:hover{
+    background-color: #F7C08A;
+    color : black;
+}
+
+.twoPieces img{
+    width: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 450px;
+    float : left;
+}
+
+.pieceTwo{
+    width: 50%;
+    background-color: #333333;
+    float: right;
+    height: 450px;
+    text-align: center;
+    padding : 60px;
+}
+
+.pieceTwo a{
+    text-decoration: none;
+    color:#333333;
+    background-color : white;
+    border: 1px solid #333333;
+    padding : 15px;
+}
+
+.pieceTwo a:hover{
+    background-color : #F7C08A;
+}
+
+.pieceTwo p{
+    margin-bottom : 20px;
+    text-align: justify;
+    line-height: 2.2em;
+}
+
+.pieceTwo h2{
+    color : white;
+    margin-bottom: 20px;
+}
+
+.iconContents{
+    text-align: center;
+}
+
+.iconContents p{
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom : 50px;
+}
+
+.iconContents h2{
+    padding-bottom : 20px;
+}
+
+.iconContents i{
+    font-size: 35px;
+    padding-top: 80px;
+}
+
 
