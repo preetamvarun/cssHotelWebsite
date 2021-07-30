@@ -199,31 +199,31 @@ form a{
     font-size: 18px;
 }
 
-.section2 .contentDiv h1{
-    padding-left: 15px;
+.Abt p{
+    color: #000;
+    line-height: 1.2em;
+    padding-bottom: 0px;
+    padding : 20px;
+    font-size: 18.2px;
 }
 
-.section2 .contentDiv p{
-    color: black;
-    padding-bottom : 0px;
-    line-height: 1.5em;
-    padding : 15px;
+.Abt{
+    float: left;
+    padding : 20px;
 }
 
 .section2 img{
-    height: 300px;
-    width: 300px;
-    float: right;
-    margin-right: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin : auto;
+    border : 1px solid yellow;
+    height: 270px;
+    width: 350px;
     border-radius: 50%;
-    padding : 10px;
 }
 
-.contentDiv{
-    width: 50%;
-    float: left;
-    padding : 40px;
-}
 
 .section3{
     background-image: url(./images/test-bg.jpg);
@@ -236,7 +236,6 @@ form a{
 .section3 p{
     color: black;
     padding-bottom: 0px;
-    line-height: 2em;
 }
 
 .guest1Content,.guest2Content{
