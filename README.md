@@ -1,4 +1,4 @@
-# cssHotelWebsite
+# css hotel website
 A hotel website with html5 and css3
 
 
